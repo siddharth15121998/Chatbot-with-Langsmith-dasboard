@@ -15,10 +15,7 @@ python -m pip install python-dotenv
 
 2. Create ".env" file with below variables and their correct values.
 OPENAI_API_KEY="<your key>"
-# # used to name project in langsmith dashboard
-# # https://smith.langchain.com/o/dfb1e0cf-487d-5893-8744-cd703746473c/projects?paginationState=%7B%22pageIndex%22%3A0%2C%22pageSize%22%3A10%7D
 LANGCHAIN_PROJECT="first-project"
-# # can be created from langsmith website
 LANGCHAIN_API_KEY="<your key>"
 
 3. Create "app.py" files and use the code provided.
