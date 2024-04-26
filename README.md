@@ -19,6 +19,7 @@ Steps to be followed:
 --> LANGCHAIN_API_KEY="your key"
 
 3. Create "app.py" files and use the code provided.
+4. Run the command in terminal: streamlit run app.py
 
 
 
