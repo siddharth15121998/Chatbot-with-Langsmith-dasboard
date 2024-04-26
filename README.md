@@ -8,15 +8,15 @@ Prerequisites:
 
 Steps to be followed:
 1. Download the packages
-pip install langchain
-pip install langchain-openai
-pip install streamlit
-python -m pip install python-dotenv
+--> pip install langchain
+--> pip install langchain-openai
+--> pip install streamlit
+--> python -m pip install python-dotenv
 
 2. Create ".env" file with below variables and their correct values.
-OPENAI_API_KEY="<your key>"
-LANGCHAIN_PROJECT="first-project"
-LANGCHAIN_API_KEY="<your key>"
+--> OPENAI_API_KEY="your key"
+--> LANGCHAIN_PROJECT="first-project"
+--> LANGCHAIN_API_KEY="your key"
 
 3. Create "app.py" files and use the code provided.
 
