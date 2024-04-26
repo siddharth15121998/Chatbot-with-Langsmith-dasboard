@@ -1,4 +1,4 @@
-# Chatbot-with-Langsmith-dasboard
+# Chatbot-with-Langsmith-dashboard
 This repository consist of code to create a chatbot using Langchain framework.
 
 Langsmith, within the context of Langchain, is a development tool specifically designed to aid in the process of taking large language model (LLM) applications from prototype to production  . It offers various functionalities to streamline this process, including:
