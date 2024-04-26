@@ -1,2 +1,28 @@
 # Chatbot-with-Langsmith-dasboard
 This repository consist of code to create a chatbot using Langchain framework.
+Prerequisites:
+1. Python3 should be installed in your system.
+2. Create virtual environment and activate it.
+3. Developer should have OPENAI API KEY and LANGSMITH API KEY
+
+
+Steps to be followed:
+1. Download the packages
+pip install langchain
+pip install langchain-openai
+pip install streamlit
+python -m pip install python-dotenv
+
+2. Create ".env" file with below variables and their correct values.
+OPENAI_API_KEY="<your key>"
+# # used to name project in langsmith dashboard
+# # https://smith.langchain.com/o/dfb1e0cf-487d-5893-8744-cd703746473c/projects?paginationState=%7B%22pageIndex%22%3A0%2C%22pageSize%22%3A10%7D
+LANGCHAIN_PROJECT="first-project"
+# # can be created from langsmith website
+LANGCHAIN_API_KEY="<your key>"
+
+3. Create "app.py" files and use the code provided.
+
+
+
+
