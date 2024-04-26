@@ -2,8 +2,8 @@
 This repository consist of code to create a chatbot using Langchain framework.
 Prerequisites:
 1. Python3 should be installed in your system.
-2. Create virtual environment and activate it.
-3. Developer should have OPENAI API KEY and LANGSMITH API KEY
+2. Create virtual environment and activate it. Steps can be found on internet according to OS.
+3. Developer should have OPENAI(https://openai.com) API KEY and LANGSMITH(https://smith.langchain.com/) API KEY.
 
 
 Steps to be followed:
