@@ -9,13 +9,13 @@ Langsmith, within the context of Langchain, is a development tool specifically d
 
 In essence, Langsmith acts as a unified platform that empowers developers to confidently build, test, deploy, and monitor their LLM applications.
 
-Prerequisites:
+* **Prerequisites**:
 1. Python3 should be installed in your system.
 2. Create virtual environment and activate it. Steps can be found on internet according to OS.
 3. Developer should have OPENAI(https://openai.com) API KEY and LANGSMITH(https://smith.langchain.com/) API KEY.
 
 
-Steps to be followed:
+* **Steps to be followed**:
 1. Download the packages
 --> pip install langchain
 --> pip install langchain-openai
@@ -29,6 +29,12 @@ Steps to be followed:
 
 3. Create "app.py" files and use the code provided.
 4. Run the command in terminal: streamlit run app.py
+
+* **To run Opensoure LLM model chatbot follow below Steps**:
+1. Create file opensource.py and copy the code given in the repo.
+2. Download and install Ollama(https://ollama.com) locally to run open source LLM models. Models supported by Ollama can be found at https://github.com/ollama/ollama
+3. In your terminal/command prompt run command "ollama run llama2". This will pull the files of the llama2 model from Ollama and run that model locally on your system.
+4. Run the command in terminal: streamlit run opensource.py
 
 
 
