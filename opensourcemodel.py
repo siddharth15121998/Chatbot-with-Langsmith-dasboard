@@ -15,14 +15,14 @@ os.environ["LANGCHAIN_API_KEY"]=os.getenv("LANGCHAIN_API_KEY")
 
 prompt=ChatPromptTemplate.from_messages(
     [
-        ("system","You are a helpful assistant. Please response to the user queries"),
+        ("system","You are a helpful chatbot assistant. Please provide response to the user queries"),
         ("user","Question:{question}")
     ]
 )
 ## streamlit framework
 
-st.title('Langchain Demo With LLAMA2 API')
-input_text=st.text_input("Search the topic u want")
+st.title('Langchain LLAMA2 API')
+user_input=st.text_input("Ask Anything till January 2022")
 
 # ollama LLAma2 LLm 
 llm=Ollama(model="llama2")
@@ -30,4 +30,4 @@ output_parser=StrOutputParser()
 chain=prompt|llm|output_parser
 
 if input_text:
-    st.write(chain.invoke({"question":input_text}))
+    st.write(chain.invoke({"question":user_input}))
